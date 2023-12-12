@@ -2,7 +2,7 @@ from openai import OpenAI
 
 def qna(question) :
    
-    client = OpenAI(api_key = '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')
+    client = OpenAI(api_key = 'your_api_key')
 
     messages = [ {"role": "system", "content": "You are a intelligent assistant."} ]
     messages.append(
@@ -16,7 +16,7 @@ def qna(question) :
         
 def getImage(question) :
    
-    client = OpenAI(api_key = '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')
+    client = OpenAI(api_key = 'your_api_key')
 
     # messages = [ {"role": "system", "content": "You are a intelligent assistant."} ]
     # messages.append(
